@@ -871,7 +871,7 @@
                   <Color id="Text Cursor"/>
                 </Property>
                 <Property name="editable" type="boolean" value="false"/>
-                <Property name="text" type="java.lang.String" value="Integrantes del proyecto:&#xa;- Jhoaho Sanchez&#xa;- Lisbeth Romo"/>
+                <Property name="text" type="java.lang.String" value="Integrantes del proyecto:&#xa;- Jhoaho Sanchez&#xa;- Lisbeth Romo&#xa;- Salome Garzon"/>
               </Properties>
             </Component>
             <Component class="java.awt.TextArea" name="textArea2">
@@ -880,7 +880,7 @@
                   <Color blue="66" green="66" red="0" type="rgb"/>
                 </Property>
                 <Property name="editable" type="boolean" value="false"/>
-                <Property name="text" type="java.lang.String" value="Manual de usuario:&#xa;&#xa;Codigo Fuente:"/>
+                <Property name="text" type="java.lang.String" value="Manual de usuario:&#xa;https://github.com/JhoahoSanchez/ProyectoEDA1B/blob/7683cc27572a824552d3afe3206b0c20e6fc5809/manual%20de%20usuario.pdf&#xa;&#xa;Codigo Fuente:&#xa;https://github.com/JhoahoSanchez/ProyectoEDA1B.git&#xa;"/>
               </Properties>
             </Component>
           </SubComponents>

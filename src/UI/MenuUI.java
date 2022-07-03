@@ -535,11 +535,11 @@ public class MenuUI extends javax.swing.JFrame {
         textArea1.setBackground(new java.awt.Color(0, 102, 102));
         textArea1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         textArea1.setEditable(false);
-        textArea1.setText("Integrantes del proyecto:\n- Jhoaho Sanchez\n- Lisbeth Romo");
+        textArea1.setText("Integrantes del proyecto:\n- Jhoaho Sanchez\n- Lisbeth Romo\n- Salome Garzon");
 
         textArea2.setBackground(new java.awt.Color(0, 102, 102));
         textArea2.setEditable(false);
-        textArea2.setText("Manual de usuario:\n\nCodigo Fuente:");
+        textArea2.setText("Manual de usuario:\nhttps://github.com/JhoahoSanchez/ProyectoEDA1B/blob/7683cc27572a824552d3afe3206b0c20e6fc5809/manual%20de%20usuario.pdf\n\nCodigo Fuente:\nhttps://github.com/JhoahoSanchez/ProyectoEDA1B.git\n");
 
         javax.swing.GroupLayout panAcDLayout = new javax.swing.GroupLayout(panAcD);
         panAcD.setLayout(panAcDLayout);
@@ -814,7 +814,7 @@ public class MenuUI extends javax.swing.JFrame {
     private void callMethods() {
         
         if ((fbcb.isSelected() == true && kmpcb.isSelected() == true) && (bmcb.isSelected() == true)) {
-            m.imprimirResultados3O();
+            m.imprimirResultados3O(); 
         } else {
             if (fbcb.isSelected() == false && kmpcb.isSelected() == true && bmcb.isSelected() == false) {
                 m.imprimirResultadosKMP();
